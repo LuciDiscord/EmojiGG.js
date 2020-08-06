@@ -1,16 +1,16 @@
 {
-  "_from": "demojijs@1.3.4",
-  "_id": "demojijs@1.3.4",
+  "_from": "EmojiGG.js",
+  "_id": "EmojiGG.js",
   "_inBundle": false,
   "_integrity": "sha512-xuQYgGBnebSHcz7WU8oodYCoHtk6u9oXroQtrcKh83RCz9B4G09i5ih4BTBkmJ0xqApI5uaf8rnun8hty6vv3A==",
-  "_location": "/demojijs",
+  "_location": "/EmojiGG.js",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "demojijs@1.3.4",
-    "name": "demojijs",
-    "escapedName": "demojijs",
+    "raw": "EmojiGG.js",
+    "name": "EmojiGG.js",
+    "escapedName": "EmojiGG.js",
     "rawSpec": "1.3.4",
     "saveSpec": null,
     "fetchSpec": "1.3.4"
@@ -19,15 +19,15 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/demojijs/-/demojijs-1.3.4.tgz",
+  "_resolved": "https://registry.npmjs.org/EmojiGG.js/-/EmojiGG.js-1.3.4.tgz",
   "_shasum": "4731929abb170df2ffe5e7f4734df35f0a7de921",
-  "_spec": "demojijs@1.3.4",
+  "_spec": "EmojiGG.js",
   "_where": "/root/OwO",
   "author": {
-    "name": "Jinzulen"
+    "name": "LuciDiscord"
   },
   "bugs": {
-    "url": "https://github.com/Jinzulen/DEmojiJS/issues"
+    "url": "https://github.com/LuciDiscord/EmojiGG.js/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -35,7 +35,7 @@
   },
   "deprecated": false,
   "description": "Extensively powerful API client for Discord Emoji.",
-  "homepage": "https://github.com/Jinzulen/DEmojiJS",
+  "homepage": "https://github.com/LuciDiscord/EmojiGG.js",
   "keywords": [
     "bot",
     "emoji",
@@ -45,10 +45,10 @@
   ],
   "license": "Apache-2.0",
   "main": "lib/index.js",
-  "name": "demojijs",
+  "name": "EmojiGG.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jinzulen/DEmojiJS.git"
+    "url": "git+https://github.com/LuciDiscord/EmojiGG.js.git"
   },
   "scripts": {
     "compile": "coffee --compile --output lib/ src/",

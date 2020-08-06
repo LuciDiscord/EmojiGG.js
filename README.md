@@ -1,24 +1,20 @@
 <img align="right" width="100" height="100" src="https://i.imgur.com/Iphriti.gif">
 
-# DEmojiJS
-### DiscordEmoji's number one API client for Node-based applications.
-
-![CodeFactor](https://www.codefactor.io/repository/github/jinzulen/demojijs/badge/master?style=for-the-badge) ![NPM Version](https://img.shields.io/npm/v/demojijs?style=for-the-badge) ![NPM Weekly Downloads](https://img.shields.io/npm/dw/demojijs.svg?style=for-the-badge)
-
+# EmojiGG.js
 ## 1. Installation
-DEmojiJS is trusted by hundreds of users from all over to power their interactions with the DiscordEmoji API. Why? It's **faster** thanks to its caching features, its wide array of **versatile search** functionalities and overall **stable** performance. Not convinced?
+EmojiGG.js is trusted by hundreds of users from all over to power their interactions with the DiscordEmoji API. Why? It's **faster** thanks to its caching features, its wide array of **versatile search** functionalities and overall **stable** performance. Not convinced?
 
 See for yourself:
 ```
-npm i demojijs
+npm i EmojiGG.js
 ```
 
 ## 2. Usage Examples
-> Often times, you won't be able to fetch a recently uploaded emote, this is not a fault of DEmojiJS; the data provided by DiscordEmoji themselves through their API is often outdated by a month or two, give or take. Most of the time, entire chunks of emotes are missing given the API doesn't serve **every** emote in DiscordEmoji's database.
+> Often times, you won't be able to fetch a recently uploaded emote, this is not a fault of EmojiGG.js; the data provided by DiscordEmoji themselves through their API is often outdated by a month or two, give or take. Most of the time, entire chunks of emotes are missing given the API doesn't serve **every** emote in DiscordEmoji's database.
 
-Firstly, require DEmojiJS:
+Firstly, require EmojiGG.js:
 ```js
-const Emoji = require("demojijs");
+const Emoji = require("EmojiGG.js");
 ```
 
 ### 2.1 Packs
@@ -166,4 +162,4 @@ Emoji.emojiByLicense("cc by 4.0", true).then(Emotes => console.log(`Found ${Emot
 ```
 
 ## 3. License
-This module is publisher under the [Apache 2.0](https://github.com/Jinzulen/DEmojiJS/blob/master/LICENSE.md) license.
+This module is publisher under the [Apache 2.0](https://github.com/LuciDiscord/EmojiGG.js/blob/master/LICENSE.md) license.
