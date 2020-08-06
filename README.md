@@ -27,13 +27,13 @@ Emoji.Packs().then(Packs => {
     });
 }).catch(console.error);
 // Found 8 packs.
-// - #9 Pensive Emojis has 8 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/pensive-pack.zip
-// - #8 Original Remixes #1 has 12 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/original-remixes-1.zip
-// - #7 Blob Pack #1 has 16 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/blob-pack-1.zip
-// - #6 100 Remixes has 12 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/100-remixes.zip- #5 PUBG Pack has 10 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/pubg-pack.zip
-// - #4 Minecraft Pack has 16 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/minecraft-pack.zip
-// - #3 Pepe Pack #1 has 16 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/pepe-pack-1.zip
-// - #2 Anime Pack #1 has 16 emotes and can be downloaded here: https://discordemoji.com/assets/packs/download/anime-pack-1.zip
+// - #9 Pensive Emojis has 8 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/pensive-pack.zip
+// - #8 Original Remixes #1 has 12 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/original-remixes-1.zip
+// - #7 Blob Pack #1 has 16 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/blob-pack-1.zip
+// - #6 100 Remixes has 12 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/100-remixes.zip- #5 PUBG Pack has 10 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/pubg-pack.zip
+// - #4 Minecraft Pack has 16 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/minecraft-pack.zip
+// - #3 Pepe Pack #1 has 16 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/pepe-pack-1.zip
+// - #2 Anime Pack #1 has 16 emotes and can be downloaded here: https://emoji.gg/assets/packs/download/anime-pack-1.zip
 ```
 
 - Grabbing a pack by ID, title or slug.
@@ -54,7 +54,7 @@ Emoji.Statistics().then(Data => {
 // DiscordEmoji has 15660 emojis, 126446 users, 103646 favorited emojis and 17 emojis pending approval.
 
 // Grab individual statistics.
-// For reference on the currently available search parameters, visit: https://discordemoji.com/api/?request=stats
+// For reference on the currently available search parameters, visit: https://emoji.gg/api/?request=stats
 // If you only want one parameter, make sure to keep it as an array rather than a string: Statistics(["users"]) not Statistics("users")
 Emoji.Statistics(["users", "faves"]).then(console.log).catch(console.error);
 // { users: 126468, faves: 103702 }
@@ -96,7 +96,7 @@ Emoji.emojiByName("kappayugi").then(console.log).catch(console.error);
 - Grabbing an emote by category.
 > Keep in mind that this will return an array and that the input is not case-sensitive.
 
-> For reference on all the available categories, visit: https://discordemoji.com/api/?request=categories
+> For reference on all the available categories, visit: https://emoji.gg/api/?request=categories
 ```js
 Emoji.emojiByCategory("anime").then(Emotes => console.log(`Found ${Emotes.length} emotes in this category.`)).catch(console.error);
 // Found 1090 emotes in this category.
@@ -107,7 +107,7 @@ Emoji.emojiByCategory("anime").then(Emotes => console.log(`Found ${Emotes.length
 Emoji.emojiBySlug("5263_flashthink").then(Emote => {
     console.log(`${Emote.title}, uploaded by ${Emote.submitted_by}. => ${Emote.image}`)
 }).catch(console.error);
-// flashthink, uploaded by Jin. => https://discordemoji.com/assets/emoji/5263_flashthink.png
+// flashthink, uploaded by Jin. => https://emoji.gg/assets/emoji/5263_flashthink.png
 ```
 
 - Grabbing emotes by author.
@@ -122,8 +122,8 @@ Emoji.emojiBySlug("5263_flashthink").then(Emote => {
         });
     }).catch(console.error);
     // This user has uploaded 90 emotes; here are a couple of them:
-    // linkdab => https://discordemoji.com/assets/emoji/4955_linkdab.png
-    // KappaYugi => https://discordemoji.com/assets/emoji/KappaYugi.png
+    // linkdab => https://emoji.gg/assets/emoji/4955_linkdab.png
+    // KappaYugi => https://emoji.gg/assets/emoji/KappaYugi.png
     ```
 
 2. Grab all of the user's animated (GIF) emotes.
@@ -137,8 +137,8 @@ Emoji.emojiBySlug("5263_flashthink").then(Emote => {
         });
     }).catch(console.error);
     // This user has uploaded 7 animated emotes; for example:
-    // linkwut => https://discordemoji.com/assets/emoji/5523_linkwut.gif
-    // linklurk => https://discordemoji.com/assets/emoji/9136_linklurk.gif
+    // linkwut => https://emoji.gg/assets/emoji/5523_linkwut.gif
+    // linklurk => https://emoji.gg/assets/emoji/9136_linklurk.gif
     ```
 
 - Grabbing emotes by license.
