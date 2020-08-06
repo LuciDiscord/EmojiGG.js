@@ -2,9 +2,7 @@
 
 # EmojiGG.js
 ## 1. Installation
-EmojiGG.js is trusted by hundreds of users from all over to power their interactions with the DiscordEmoji API. Why? It's **faster** thanks to its caching features, its wide array of **versatile search** functionalities and overall **stable** performance. Not convinced?
 
-See for yourself:
 ```
 npm i EmojiGG.js
 ```
