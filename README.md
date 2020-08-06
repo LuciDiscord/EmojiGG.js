@@ -4,7 +4,8 @@
 ## 1. Installation
 
 ```
-npm i EmojiGG.js
+npm i https://github.com/LuciDiscord/EmojiGG.js
+      
 ```
 
 ## 2. Usage Examples
